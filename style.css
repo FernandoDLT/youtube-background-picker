@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -14,14 +14,14 @@ img {
 
 ul {
   height: 200px;
-  width: 100px;
+  width: 200px;
   margin: 0 auto;
   padding: 0;
 }
 
 li {
   height: 96px;
-  width: 105px;
+  width: 205px;
   border: 3px solid white;
   list-style: none;
 }
@@ -51,4 +51,62 @@ li {
 }
 #dodgerBlue {
   background-color: rgb(30, 144, 255);
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+
+ul {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  width: 205px;
+  height: 97px;
+  border: 3px solid white;
+  list-style-type: none;
+  border-radius: 15px;
+}
+
+
+#violet {
+  background-color: rgb(240, 100, 240);
+}
+
+#green {
+  background-color: rgba(0, 253, 81, 1);
+}
+
+#blue {
+  background-color: rgba(0, 254, 255);
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#dodgerBlue {
+  background-color: dodgerblue;
 }
