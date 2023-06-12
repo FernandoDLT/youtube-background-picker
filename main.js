@@ -1,5 +1,5 @@
 document.getElementById('violet').onclick = partyViolet
-document.getElementById('green').onclick = partygreen
+document.getElementById('green').onclick = partyGreen
 document.getElementById('blue').onclick = partyBlue
 document.getElementById('yellow').onclick = partyYellow
 document.getElementById('red').onclick = partyRed
@@ -10,12 +10,12 @@ function partyViolet() {
     document.querySelector('body').style.backgroundColor = 'violet'
     document.querySelector('body').style.color = 'white'
 }
-function partygreen() {
-    document.querySelector('body').style.backgroundColor = 'rgba(0, 253, 81, 1)'
+function partyGreen() {
+    document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
     document.querySelector('body').style.color = 'white'
 }
 function partyBlue() {
-    document.querySelector('body').style.backgroundColor = 'rgba(0, 254, 255)'
+    document.querySelector('body').style.backgroundColor = 'blue'
     document.querySelector('body').style.color = 'white'
 }
 function partyYellow() {
